@@ -15,6 +15,6 @@ public class CauseUncheckedException {
      */
     public void throwUncheckedException(){
         int i = 2;
-        i/0;
+        System.out.println(i/0);
     }
 }
